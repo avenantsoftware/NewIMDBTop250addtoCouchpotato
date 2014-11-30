@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import hashlib, requests, httplib, urllib, urllib2, re
 from lxml.html import parse
 from BeautifulSoup import BeautifulSoup
