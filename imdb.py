@@ -5,7 +5,7 @@ from BeautifulSoup import BeautifulSoup
 from datetime import datetime
 
 url = parse('http://www.took.nl/250/').getroot()
-html_page = urllib2.urlopen("http://www.took.nl/250/")
+html_page = urllib2.urlopen("http://250.took.nl")
 
 # verstuur pushover bericht
 def pushover(str,str2):
